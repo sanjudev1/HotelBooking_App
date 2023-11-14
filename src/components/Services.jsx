@@ -35,7 +35,7 @@ const Services = () => {
               <img
                 src={bedroom.img}
                 alt={bedroom.category}
-                className="min-w-[900px] max-w-[900px] min-h-[500px] max-h-[500px]"
+                className="min-w-[700px] max-w-[700px] min-h-[500px] max-h-[500px]"
               />
             </div>
           ))}

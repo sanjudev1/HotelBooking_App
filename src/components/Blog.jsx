@@ -56,15 +56,7 @@ function HotelBookingForm() {
   };
 
   return (
-    <div
-      className="py-10 absolute z-10 w-full h-full"
-      style={{
-        backgroundImage:
-          'url(https://images.unsplash.com/photo-1583037189850-1921ae7c6c22?q=80&w=1975&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-      }}
-    >
+    <div className="py-10 absolute z-10 w-full h-full">
       <div className="w-96 mx-auto bg-white p-8 rounded shadow-lg">
         <h1 className="text-2xl font-bold mb-6 text-blue-700">
           Hotel Booking Form

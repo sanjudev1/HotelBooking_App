@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 console.log(HEADER_TITLES);
 const Header = () => {
   return (
-    <div className="absolute z-20 px-8 py-2 bg-gradient-to-b from-black  w-full text-white">
+    <div className="absolute z-20 px-8 py-2 bg-gradient-to-r   w-full text-rose-500">
       <a href="/">
         <img
           className="w-[5%] rounded-full absolute z-30"
