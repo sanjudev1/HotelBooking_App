@@ -1,59 +1,79 @@
-# React + Vite
+# React + Vite Booking App Architecture
 
-# Hight Level Booking App Architecture
+## High-Level Pages
 
-    # Home Page
-    # About Page
-    # Our Services
-    # Contact
+- Home
+- About
+- Our Services
+- Contact
 
-# Select UI Design of Booking App
+## UI Design Selection
 
-    - After Final Selection
+- Finalize UI design for the booking app.
 
-# Basic fautures of Booking App
+## Basic Features
 
-       - Forms
-       - Giving services to the  Available Rooms
-       - Navigation for specific visit Page
-       - Display Popular Room Services in the Home Page using Coursel
-       - Only Succesfull Form Submission Modal interaction
+- Forms for user input
+- Display available rooms and services
+- Navigation for specific pages
+- Carousel to showcase popular room services on the homepage
+- Modal interaction for successful form submission
 
-# Pacakges required to implement this App
+## Packages Required
 
-     - react-slick for Coursel (# docs  https://react-slick.neostack.com/docs/example/simple-slider)
-     - react-hook-form for Form Validations (# docs  https://react-hook-form.com/get-started#Quickstart)
-                                           [# Justification :formik is heavy bundle size than react-hook-form]
+- `react-slick` for Carousel ([docs](https://react-slick.neostack.com/docs/example/simple-slider))
+- `react-hook-form` for Form Validations ([docs](https://react-hook-form.com/get-started#Quickstart)) ([Justification: `formik` is heavier than `react-hook-form`])
+- `react-router-dom` for navigation ([docs](https://reactrouter.com/en/main/routers/create-browser-router))
+- `font-awesome-icons`
+- `Tailwind CSS`
+- `react-phone-number-input` ([docs](https://catamphetamine.gitlab.io/react-phone-number-input/))
 
-     - react-router-dom for navigation (# docs https://reactrouter.com/en/main/routers/create-browser-router)
-     - font-awesome-icons
-     - Tailwind Css
-     - react-phone-number-input  (# https://catamphetamine.gitlab.io/react-phone-number-input/)
+## Step-by-Step Implementation
 
-# Step by Step Implementation
+1. **Setup React App with Vite Scaffold**
+   - Vite setup is faster than a basic Create React App.
 
-- Setup React App (used vite scaffold) [#vite setup faster than basic react-app]
-- Tailwind configuration (refer # https://tailwindcss.com/docs/guides/create-react-app)
+2. **Tailwind Configuration**
+   - Configure Tailwind CSS ([docs](https://tailwindcss.com/docs/guides/create-react-app)).
 
-# MY first Apprach is desktop device then i after go for remaining devices
+3. **Desktop-First Approach**
+   - Start with the desktop design and later adapt for other devices.
 
-- Home Page
+## Home Page
 
-  - Header (Navbar Items like Home,about,services,contact)
-  - collection of Hotels Images
-  - Maintain in constant folder
-  - Image Slidder
-    - React Slick (package)
-  - bug fixed for react slick arow icons
-  - Routing (react-router-dom )
-  - font awesome icons setup
+- **Header (Navbar Items)**
+  - Include navigation items like Home, About, Services, Contact.
 
-- contact us (form validations ) [# react-hook-form]
-  - email,name,age,
-  - phone number
-  - fixes some issues
-- About Us
-  - font-awesome icons are used
-- Our Services - Collection of Hotel Category Images are required - Add Diamond Icon to the App
+- **Collection of Hotel Images**
+  - Maintain images in a constant folder.
 
-# Implement responsive website
+- **Image Slider**
+  - Use `react-slick` for a responsive image slider ([docs](https://react-slick.neostack.com/docs/example/simple-slider)).
+
+- **Fix React Slick Arrow Icons Bug**
+
+- **Routing**
+  - Implement navigation using `react-router-dom`.
+
+- **Font Awesome Icons Setup**
+
+## Contact Us Page
+
+- **Form Validations**
+  - Use `react-hook-form` for form validation ([docs](https://react-hook-form.com/get-started#Quickstart)).
+
+- **Form Fields**
+  - Include fields for email, name, age, and phone number.
+
+## About Us Page
+
+- **Font Awesome Icons Usage**
+
+## Our Services Page
+
+- **Collection of Hotel Category Images**
+  - Add diamond icons to the app.
+
+## Implement Responsive Design
+
+- Adapt the website for various devices.
