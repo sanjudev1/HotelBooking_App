@@ -53,7 +53,9 @@ const ImageSlider = () => {
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/2">
           <div className="text-2xl px-4 sm:px-5 md:px-0">
-            <p className="text-yellow-400 font-bold text-3xl">Our Contact Us</p>
+            <p className="text-yellow-400 font-bold text-3xl mt-5">
+              Our Contact Us
+            </p>
             <h1 className="text-blue-950 font-medium py-3 text-4xl">
               Easy to Contact Us
             </h1>
@@ -74,7 +76,7 @@ const ImageSlider = () => {
         <img
           src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/198712789.jpg?k=658707a617c723a4cae28edc137087bb7074d5cc19b03230e6139d3f3fe20846&o=&hp=1"
           alt="resort_image"
-          className="w-full md:w-1/2 h-auto rounded-tl-full md:rounded-tl-none md:rounded-l-full"
+          className="w-full md:w-1/2 h-auto md:mt-7 md:mr-3 rounded-tl-full md:rounded-tl-none md:rounded-l-full"
         />
       </div>
     </div>
