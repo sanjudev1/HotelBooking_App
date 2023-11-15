@@ -56,8 +56,8 @@ function HotelBookingForm() {
   };
 
   return (
-    <div className="py-10 absolute z-10 w-full h-full">
-      <div className="w-96 mx-auto bg-white p-8 rounded shadow-lg">
+    <div className="py-10 mx-auto max-w-md">
+      <div className="bg-white p-8 rounded shadow-lg">
         <h1 className="text-2xl font-bold mb-6 text-blue-700">
           Hotel Booking Form
         </h1>

@@ -4,7 +4,7 @@ import Home from './components/ImageSlider';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Services from './components/Services';
 import Contact from './components/Contact';
-import Blog from './components/Blog';
+import Blog from './components/HotelBookingForm';
 
 const App = () => {
   const Approuter = createBrowserRouter([
